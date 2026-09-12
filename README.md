@@ -42,7 +42,11 @@ powershell.exe -ExecutionPolicy Bypass -File .\uninstall.ps1
 
 UTAUのGUIを操作してレンダリングするため、UTAUの画面をユーザー操作で同時に操作しないでください。音源側の `oto.ini`、resampler、wavtoolの設定が正しくない場合は、UTAU本体の通常レンダリングと同じように失敗します。
 
+UTAUは v0.4.19 以上を使用してください。v0.4.19未満には、細工されたUSTを開いた際に任意のOSコマンド実行につながる脆弱性が報告されています。詳細は [JVN#71404925](https://jvn.jp/jp/JVN71404925/index.html) を参照してください。
+
 このプロジェクトはUTAUの非公式ツールであり、UTAUおよび音源配布元とは無関係です。
+
+MIT Licenseの対象は、このリポジトリに含まれるスクリプトとドキュメントです。UTAU本体、音源、UST、生成されたWAVには、それぞれの配布元・作成者の利用条件が適用されます。
 
 ## License
 
